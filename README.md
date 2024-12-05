@@ -1,3 +1,3 @@
-# Staphylococcus-large-scale-convergence-analysis
+# Staphylococcus-large-scale-convergence-SSR-analysis
 Code used for the publication:
-_"Rapid Staphylococcus aureus adaptations by recurrent, reversible mutations in simple sequence repeat loci"_
+_"Simple sequence repeats are major drivers of adaptive evolution in Staphylococcus aureus"_
