@@ -1,6 +1,6 @@
 # Simple sequence repeats power Staphylococcus aureus adaptation
 
-Code generated for the publication:
+**Code generated for the study:**
 
 - _sample_run_gubbins.sh_
 
