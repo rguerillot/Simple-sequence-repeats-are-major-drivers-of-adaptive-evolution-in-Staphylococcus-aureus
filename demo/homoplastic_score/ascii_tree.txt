@@ -1,0 +1,11 @@
+ASCII topology ((A,B),(C,(D,E))):
+
+             ┌─ A (mut1)
+         ┌───┤
+         │   └─ B
+ ROOT ───┤
+         │       ┌─ C
+         └───────┤
+                 │   ┌─ D (mut1, mut2)
+                 └───┤
+                     └─ E (mut2)
