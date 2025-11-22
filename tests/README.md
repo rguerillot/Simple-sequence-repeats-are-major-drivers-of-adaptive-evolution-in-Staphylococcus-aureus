@@ -177,13 +177,21 @@ All can be installed via: `conda install -c bioconda bwa samtools lofreq vcflib`
 
 ## Running All Tests
 
-To run all tests that don't require external dependencies:
+## Running All Tests
+
+Use the master test runner for best results (includes dependency checking and colored output):
 ```bash
 cd tests
-bash test_rmseq_SSR_count.sh
+bash run_all_tests.sh
 ```
 
-To run tests requiring bioinformatics tools (if installed):
+To run individual tests:
+```bash
+cd tests
+bash test_rmseq_SSR_count.sh  # Only requires standard Unix tools
+```
+
+Alternatively, to run all tests with a simple loop (without dependency checking):
 ```bash
 cd tests
 for test in test_*.sh; do
@@ -192,6 +200,7 @@ for test in test_*.sh; do
     echo "---"
 done
 ```
+
 
 ## Notes
 
