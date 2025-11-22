@@ -1,0 +1,11 @@
+chr	sample	pos	ref	alt	qual	filter	effect	context	amplicon_seq
+chr1	test_sample1	100	A	T	30	PASS	synonymous	ATCG	GTGCCAAAAAAAAAATAAAG
+chr1	test_sample1	150	G	C	25	PASS	missense	GCTA	GTGCCAAAAAAAAATAAAG
+chr1	test_sample1	200	T	G	35	PASS	synonymous	TGAC	GTGCCAAAAAAAATAAAG
+chr1	test_sample1	250	C	A	40	PASS	missense	CATG	GTGCCAAAAAAATAAAG
+chr1	test_sample1	300	A	G	45	PASS	synonymous	AGCT	GTGCCAAAAAATAAAG
+chr1	test_sample1	350	T	C	30	PASS	missense	TCGA	GTGCCAAAAATAAAG
+chr1	test_sample1	400	G	A	28	PASS	synonymous	GATC	GTGCCAAAAAAAAAATAAAG
+chr1	test_sample1	450	C	T	32	PASS	missense	CTAG	GTGCCAAAAAAAAATAAAG
+chr1	test_sample1	500	A	G	38	PASS	synonymous	ACGT	GTGCCAAAAAAAATAAAG
+chr1	test_sample1	550	T	A	42	PASS	missense	TGCA	SOME_OTHER_SEQUENCE

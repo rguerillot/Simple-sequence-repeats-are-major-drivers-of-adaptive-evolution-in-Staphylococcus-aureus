@@ -1,0 +1,38 @@
+# Test output files that should not be committed
+
+# Output from get_gap_ambiguous_snp_score.sh test
+*.pct_gap
+*.pct_gap_ambiguous
+*.pct_ambiguous
+*.pct_snp
+*.userplot
+*_ambiguous_and_gap_to-
+*_gap_to_T
+*_ambiguous_to-
+*_gap_and_n_to_T
+*_snp_to-
+
+# Output from sample_run_gubbins.sh test
+core.full.aln.samp*
+gubbins.samp*
+test_sample_run_gubbins_modified.sh
+
+# Output from hetero_SSR_call.sh test
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+*.vcf.idx
+*_coverage.tsv
+*_coverage_mean_std.tsv
+*_alnqual.bam
+*_alnqual_indelqual.bam
+test_reference.fasta.amb
+test_reference.fasta.ann
+test_reference.fasta.bwt
+test_reference.fasta.pac
+test_reference.fasta.sa
+test_reference.fasta.fai
+
+# Log files
+*.log

@@ -1,0 +1,7 @@
+mut_001	strain1
+mut_001	strain3
+mut_002	strain2
+mut_002	strain4
+mut_003	strain1
+mut_003	strain2
+mut_003	strain3
