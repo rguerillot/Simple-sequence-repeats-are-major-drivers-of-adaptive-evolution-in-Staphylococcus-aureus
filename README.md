@@ -172,3 +172,21 @@ These scripts are integrated at multiple points in the study’s pipeline:
 Please see the Methods section of the manuscript for more context and rationale for each script’s use.
 
 ---
+
+## Testing
+
+A comprehensive test suite with simulated datasets is available in the `tests/` directory. Each script has:
+- Minimal test input data
+- Automated test scripts
+- Documentation of expected outputs
+
+To run tests:
+```bash
+cd tests
+bash run_all_tests.sh  # Run all tests (requires dependencies)
+bash test_rmseq_SSR_count.sh  # Run individual test
+```
+
+See [tests/README.md](tests/README.md) for detailed information about test data, dependencies, and expected outputs.
+
+---
