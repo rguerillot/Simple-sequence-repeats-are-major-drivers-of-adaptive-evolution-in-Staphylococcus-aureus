@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FA_TO_SAMPLE="../../core.full.aln"
+FA_TO_SAMPLE="core.full.aln"
 N_SAMPLE=100
 SIZE_SAMPLE=100
 MIN_SNPS=10
